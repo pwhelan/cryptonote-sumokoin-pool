@@ -16,9 +16,15 @@
         "base58-native": "*",
         "mailgun.js": "*",
         "multi-hashing": "git://github.com/clintar/node-multi-hashing.git#Nan-2.0",
-        "cryptonote-util": "git://github.com/M5M400/node-cryptonote-util.git#xmr-Nan-2.0"
+        "cryptonote-util": "git://github.com/indiealexh/node-cryptonote-util.git#xmr-Nan-2.0"
     },
     "engines": {
         "node": ">=0.10"
+    },
+    "devDependencies": {
+        "jayson": "^2.0.5",
+        "mocha": "^4.0.1",
+        "redis-js": "^0.1.2",
+        "rewire": "^3.0.2"
     }
 }
